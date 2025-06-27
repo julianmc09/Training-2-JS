@@ -22,5 +22,9 @@ for (const id in products){
 }
 
 for(const product of productsSet){
-    
+    console.log("Unique product", product);
 }
+
+productsMap.forEach((product, category) => {
+    console.log(`Category: ${category}, Product: ${product}`);
+});
